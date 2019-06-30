@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {height:100%;}
+
+    #conteudo-page {
+        min-height:100%;
+    } 
 
 body {
     font-family: 'Chau Philomene One', sans-serif;
@@ -11,7 +16,6 @@ body {
     background-repeat: no-repeat;
      */
 }
-
 
 header i {
     margin-left: 2%;
@@ -94,6 +98,7 @@ text-decoration:none;
 footer{
     font-family: 'Hind', sans-serif;
     font-size: 0.9rem;
+    height: 200px;
 }
 footer a{
     color:white;
@@ -162,9 +167,6 @@ footer p{
     header nav a:hover{
         background-color: #f0c305;
     } 
-    footer{
-        position: fixed;
-        bottom: 0;
-    }  
+
 
 }
